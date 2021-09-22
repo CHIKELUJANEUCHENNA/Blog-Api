@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+@RequestMapping(value = "/api",produces = "application/json")
 public class CommentsController {
     private final CommentService commentService;
 

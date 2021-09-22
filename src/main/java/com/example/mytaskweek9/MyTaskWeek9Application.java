@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-//@EnableScheduling
+@EnableScheduling
 public class MyTaskWeek9Application {
 
     public static void main(String[] args) {

@@ -29,4 +29,10 @@ public class Post {
 //    @JsonIgnore
     @OneToMany
     private List<Comments> comments = new ArrayList<>();
+
+    public Post(Long post_id, String post_messages, String post_Title) {
+        this.post_id = post_id;
+        this.post_messages = post_messages;
+        this.post_Title = post_Title;
+    }
 }

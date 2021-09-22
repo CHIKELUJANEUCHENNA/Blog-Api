@@ -13,6 +13,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+@RequestMapping(value = "/api",produces = "application/json")
 public class PostController {
     private final UserRepository userService;
     private final PostService postService;

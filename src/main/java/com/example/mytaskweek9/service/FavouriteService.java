@@ -10,6 +10,5 @@ import java.util.List;
 public interface FavouriteService {
     List<Post> getAllFavouritePostByUser(Long userId);
     Favourite addPostToFavourite(Long postId, Long userId);
-//    Favourite getAFavouritePost(long id);
-//    void deleteFavouritePost(long id);
+    void deleteFavouritePost(long id);
 }

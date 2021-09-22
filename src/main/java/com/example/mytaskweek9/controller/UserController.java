@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
@@ -28,6 +29,16 @@ public class UserController {
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 
+
+    @GetMapping("/findUserById/{id}")
+    private ResponseEntity<User> findUserById(@PathVariable("id") Long id){
+        return userService.findUserById(id)
+                .map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
+//        Optional<User> user = userService.findUserById(id);
+//        return new ResponseEntity<>(user, HttpStatus.OK);
+    }
+
     @PutMapping("/updateUser/{id}")
     private ResponseEntity<User> updateUser(@PathVariable Long id, @RequestBody User user) {
         User updateUser = userService.updateUser(id, user);
@@ -37,6 +48,12 @@ public class UserController {
     @DeleteMapping("/deleteUser/{id}")
     public ResponseEntity<?> deleteUser(@PathVariable("id") Long id) {
         userService.deleteUser(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @DeleteMapping("/cancelDelete/{userId}")
+    public ResponseEntity<?> cancelDelete(@PathVariable("userId") Long userId) {
+        userService.cancelDelete(userId);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

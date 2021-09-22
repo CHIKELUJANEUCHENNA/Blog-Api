@@ -41,9 +41,9 @@ public class FavouriteController {
 //        return new ResponseEntity<>(favourite, HttpStatus.OK);
 //    }
 
-//    @DeleteMapping("/deleteFavouritePost/{id}")
-//    public ResponseEntity<Favourite> deleteFavouritePost(@PathVariable("id") Long id) {
-//        favouriteService.deleteFavouritePost(id);
-//        return new ResponseEntity<>(HttpStatus.OK);
-//    }
+    @DeleteMapping("/deleteFavouritePost/{id}")
+    public ResponseEntity<Favourite> deleteFavouritePost(@PathVariable("id") Long id) {
+        favouriteService.deleteFavouritePost(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }

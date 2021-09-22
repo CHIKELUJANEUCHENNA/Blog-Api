@@ -5,168 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e0847f-011e-483d-b235-4c4e8d64b728" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_52.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/week-9-task-CHIKELUJANEUCHENNA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTask-week-9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/CommentsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/ConnectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/FavouriteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/LikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/dto/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/dto/SignUpDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/exceptions/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Favourite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Likes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/ConnectionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/FavouriteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/LikesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/ConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/FavouriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/LikesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/CommentsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/ConnectionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/FavouriteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/LikesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/PostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/UserServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/config/TaskScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/exceptions/UserRegistrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytaskweek9/controller/PostControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytaskweek9/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytaskweek9/service/PostServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mytaskweek9/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22e558f4-2778-411b-a31a-53e0580bd2da/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/MyTaskWeek9Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/MyTaskWeek9Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/CommentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/CommentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/ConnectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/ConnectionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/FavouriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/FavouriteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/dto/SignUpDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/dto/SignUpDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/exceptions/AppException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/exceptions/AppException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/ConnectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/ConnectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/FavouriteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/FavouriteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/FavouriteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/FavouriteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytaskweek9/service/implementation/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/MyTaskWeek9Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/MyTaskWeek9Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/CommentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/CommentsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/ConnectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/ConnectionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/FavouriteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/FavouriteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/LikeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/LikeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/dto/SignUpDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/dto/SignUpDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/FavouriteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/FavouriteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/implementation/FavouriteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/implementation/FavouriteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/implementation/UserServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mytaskweek9/service/implementation/UserServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/mytaskweek9/MyTaskWeek9ApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,9 +68,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -232,28 +123,19 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.example.mytaskweek9.controller" />
       <recent name="com.example.mytaskweek9.service" />
+      <recent name="com.example.mytaskweek9.service.implementation" />
+      <recent name="com.example.mytaskweek9.controller" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.MyTaskWeek9Application">
-    <configuration name="PostServiceImplTest.savePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="week-9-task-CHIKELUJANEUCHENNA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mytaskweek9.service.implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mytaskweek9.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.PostServiceImplTest" />
-      <option name="METHOD_NAME" value="savePost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostControllerTest.fetchAllPosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week-9-task-CHIKELUJANEUCHENNA" />
       <extension name="coverage">
         <pattern>
@@ -262,40 +144,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytaskweek9.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="saveUser" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.controller.PostControllerTest" />
+      <option name="METHOD_NAME" value="fetchAllPosts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServicesImplTest.loginUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostServiceTest.getAllPostedPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week-9-task-CHIKELUJANEUCHENNA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mytaskweek9.service.implementation.*" />
+          <option name="PATTERN" value="com.example.mytaskweek9.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytaskweek9.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.UserServicesImplTest" />
-      <option name="METHOD_NAME" value="loginUser" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.PostServiceTest" />
+      <option name="METHOD_NAME" value="getAllPostedPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServicesImplTest.signUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostServiceTest.savePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week-9-task-CHIKELUJANEUCHENNA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mytaskweek9.service.implementation.*" />
+          <option name="PATTERN" value="com.example.mytaskweek9.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mytaskweek9.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.UserServicesImplTest" />
-      <option name="METHOD_NAME" value="signUp" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.PostServiceTest" />
+      <option name="METHOD_NAME" value="savePost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week-9-task-CHIKELUJANEUCHENNA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mytaskweek9.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mytaskweek9.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.showAllRegisteredUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week-9-task-CHIKELUJANEUCHENNA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mytaskweek9.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mytaskweek9.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytaskweek9.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="showAllRegisteredUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,10 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.saveUser" />
-        <item itemvalue="JUnit.PostServiceImplTest.savePost" />
-        <item itemvalue="JUnit.UserServicesImplTest.signUp" />
-        <item itemvalue="JUnit.UserServicesImplTest.loginUser" />
+        <item itemvalue="JUnit.PostServiceTest.savePost" />
+        <item itemvalue="JUnit.PostServiceTest.getAllPostedPost" />
+        <item itemvalue="JUnit.UserServiceTest.showAllRegisteredUser" />
+        <item itemvalue="JUnit.PostControllerTest.fetchAllPosts" />
+        <item itemvalue="JUnit.UserServiceTest.deleteUser" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +247,12 @@
       <workItem from="1631464914176" duration="5106000" />
       <workItem from="1631483323979" duration="39000" />
       <workItem from="1631483667594" duration="28331000" />
-      <workItem from="1631606858013" duration="17334000" />
+      <workItem from="1631606858013" duration="17928000" />
+      <workItem from="1631714386231" duration="2057000" />
+      <workItem from="1631819366212" duration="11751000" />
+      <workItem from="1631973986941" duration="32958000" />
+      <workItem from="1632167683557" duration="7476000" />
+      <workItem from="1632233059084" duration="4440000" />
     </task>
     <servers />
   </component>

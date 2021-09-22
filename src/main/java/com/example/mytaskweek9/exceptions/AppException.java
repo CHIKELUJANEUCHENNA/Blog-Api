@@ -9,4 +9,5 @@ public class AppException extends RuntimeException{
         super(message);
         this.httpStatus=httpStatus;
     }
+
 }

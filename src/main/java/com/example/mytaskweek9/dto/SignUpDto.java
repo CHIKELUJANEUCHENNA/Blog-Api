@@ -1,10 +1,14 @@
 package com.example.mytaskweek9.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotNull;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class SignUpDto {
     @NotNull
     private String fullName;

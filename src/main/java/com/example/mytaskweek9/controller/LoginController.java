@@ -8,16 +8,14 @@ import com.example.mytaskweek9.repository.UserRepository;
 import com.example.mytaskweek9.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+@RequestMapping(value = "/api",produces = "application/json")
 public class LoginController {
     private final UserRepository userRepository;
     private final UserService userService;
@@ -38,16 +36,16 @@ public class LoginController {
         return userService.loginUser(loginDto);
     }
 
-    @PostMapping("/users/logout")
-    public Status userLogout(@Valid @RequestBody User user) {
-        List<User> users = userRepository.findAll();
-        for (User user2 : users) {
-            if (user2.equals(user)) {
-//                user.setLoggedIn(false);
-                userRepository.save(user);
-                return Status.SUCCESS;
-            }
-        }
-        return Status.FAILURE;
-    }
+//    @PostMapping("/users/logout")
+//    public Status userLogout(@Valid @RequestBody User user) {
+//        List<User> users = userRepository.findAll();
+//        for (User user2 : users) {
+//            if (user2.equals(user)) {
+////                user.setLoggedIn(false);
+//                userRepository.save(user);
+//                return Status.SUCCESS;
+//            }
+//        }
+//        return Status.FAILURE;
+//    }
 }

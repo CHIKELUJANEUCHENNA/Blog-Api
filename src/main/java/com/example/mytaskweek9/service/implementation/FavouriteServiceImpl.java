@@ -54,21 +54,10 @@ public class FavouriteServiceImpl implements FavouriteService {
         return favourite;
     }
 
-//    @Override
-//    public Favourite getAFavouritePost(long id){
-//        Post post1 = new Post();
-//        Optional<Favourite> favourite2 = favouriteRepository.findById(id);
-//        if (favourite2.isEmpty()) {
-//            throw new RuntimeException("Post not found::" + id);
-//        } else
-//        postRepository.save(post1);
-//            return favouriteRepository.findFavouriteByPosts(post1);
-//    }
-//
-//    @Override
-//    public void deleteFavouritePost(long id) {
-//        User user = userRepository.getById(id);
-//        Favourite favourite = favouriteRepository.findFavouriteByUser(user).get();
-//        favouriteRepository.deleteById(favourite);
-//    }
+    @Override
+    public void deleteFavouritePost(long id) {
+        User user = userRepository.getById(id);
+        Favourite favourite = favouriteRepository.findFavouriteByUser(user).get();
+        favouriteRepository.deleteById(favourite);
+    }
 }
